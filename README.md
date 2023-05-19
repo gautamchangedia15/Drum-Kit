@@ -15,7 +15,7 @@ This is a simple drum kit project inspired by Angela Yu's course on Udemy. It al
 The Drum Kit project is a fun way to explore the basics of web development using HTML, CSS, and JavaScript. It demonstrates how to create interactive elements on a webpage and handle user interactions using event listeners.
 
 ## Demo
-You can try out the project live [here](https://your-project-url.com).
+You can try out the project live [here](https://gautamchangedia15.github.io/Drum-Kit/).
 
 ## Features
 - Play drum sounds by pressing corresponding keys or clicking buttons
@@ -63,5 +63,3 @@ Contributions to the project are welcome. If you find any issues or have suggest
    ```
 5. Open a pull request.
 
-## License
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). You can freely use and modify this project for personal and commercial purposes.
