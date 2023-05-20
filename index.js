@@ -5,6 +5,7 @@ for(var i=0;i < numberOfDrums; i++)
     document.querySelectorAll(".drum")[i].addEventListener("click",function()
     {
         var cp=this.innerHTML;
+        cp=cp.toLowerCase();
         playDrums(cp);
         buttonAnimation(cp);
                 
@@ -14,6 +15,7 @@ for(var i=0;i < numberOfDrums; i++)
 document.addEventListener("keydown",function(event)
 {
     var kp=event.key;
+    kp=kp.toLowerCase();
     playDrums(kp);
     buttonAnimation(kp);
 });
@@ -22,27 +24,27 @@ document.addEventListener("keydown",function(event)
 function playDrums(cp)
 {
     switch (cp) {
-        case "w || W":
+        case "w":
             var audio=new Audio("./sounds/tom-1.mp3");
             break;
 
-        case "a || A":
+        case "a":
             var audio=new Audio("./sounds/tom-2.mp3");
             break;
-         case "s || S":
+         case "s":
             var audio=new Audio("./sounds/tom-3.mp3");
             break;
         
-        case "d || D":
+        case "d":
             var audio=new Audio("./sounds/tom-4.mp3");
             break;
-        case "j || J":
+        case "j":
             var audio=new Audio("./sounds/snare.mp3");
             break;
-        case "k || K":
+        case "k":
             var audio=new Audio("./sounds/crash.mp3");
             break;
-        case "l || L":
+        case "l":
             var audio=new Audio("./sounds/kick-bass.mp3");
             break;
     
@@ -65,6 +67,8 @@ function buttonAnimation(currentKey)
 
 }
 
-        
+// this.style.color="white";
+//         var audio=new Audio("./sounds/tom-1.mp3");
+//         
 
 
