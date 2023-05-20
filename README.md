@@ -9,7 +9,6 @@ This is a simple drum kit project inspired by Angela Yu's course on Udemy. It al
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 The Drum Kit project is a fun way to explore the basics of web development using HTML, CSS, and JavaScript. It demonstrates how to create interactive elements on a webpage and handle user interactions using event listeners.
