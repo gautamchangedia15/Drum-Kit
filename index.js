@@ -22,27 +22,27 @@ document.addEventListener("keydown",function(event)
 function playDrums(cp)
 {
     switch (cp) {
-        case "w":
+        case "w || W":
             var audio=new Audio("./sounds/tom-1.mp3");
             break;
 
-        case "a":
+        case "a || A":
             var audio=new Audio("./sounds/tom-2.mp3");
             break;
-         case "s":
+         case "s || S":
             var audio=new Audio("./sounds/tom-3.mp3");
             break;
         
-        case "d":
+        case "d || D":
             var audio=new Audio("./sounds/tom-4.mp3");
             break;
-        case "j":
+        case "j || J":
             var audio=new Audio("./sounds/snare.mp3");
             break;
-        case "k":
+        case "k || K":
             var audio=new Audio("./sounds/crash.mp3");
             break;
-        case "l":
+        case "l || L":
             var audio=new Audio("./sounds/kick-bass.mp3");
             break;
     
@@ -65,8 +65,6 @@ function buttonAnimation(currentKey)
 
 }
 
-// this.style.color="white";
-//         var audio=new Audio("./sounds/tom-1.mp3");
-//         
+        
 
 
