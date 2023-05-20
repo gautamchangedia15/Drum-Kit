@@ -37,7 +37,7 @@ To run this project locally, follow these steps:
 ## Usage
 Once you have the project running, you can play the drum sounds in the following ways:
 
-- Press the corresponding keys on your keyboard (A, S, D, F, G, H, J, K, L)
+- Press the corresponding keys on your keyboard ( W, A, S, D, J, K, L)
 - Click the drum buttons with your mouse
 
 Each drum sound is associated with a specific key or button. When you press the corresponding key or click the button, the associated sound will play and an animation will be triggered on the button.
